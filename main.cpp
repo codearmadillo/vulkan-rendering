@@ -4,7 +4,6 @@
 #define LOG_DEBUG(x) std::cout << "Debug: " << x << std::endl
 
 #include "GLFW/glfw3.h"
-#include "GLFW/glfw3native.h"
 
 int main() {
 
