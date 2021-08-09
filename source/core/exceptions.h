@@ -3,7 +3,7 @@
 #include <iostream>
 #include <exception>
 
-namespace Tokyo::Exceptions
+namespace Exceptions
 {
     struct WindowNotInitializedException : public std::exception
     {

@@ -6,7 +6,7 @@
 #include "exceptions.h"
 #include <iostream>
 
-namespace Tokyo::Core
+namespace Core
 {
     Application::Application()
     : m_window(800, 600, "Hello, Vulkan!") {
@@ -16,7 +16,7 @@ namespace Tokyo::Core
     void Application::Run()
     {
         if(!m_window.IsInitialized())
-            throw Tokyo::Exceptions::WindowNotInitializedException();
+            throw Exceptions::WindowNotInitializedException();
 
         while(!m_window.ShouldWindowClose())
         {

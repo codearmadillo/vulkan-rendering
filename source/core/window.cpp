@@ -5,7 +5,7 @@
 #include "window.h"
 #include "../util/log.h"
 
-namespace Tokyo::Core
+namespace Core
 {
     Window::Window(const int w, const int h, const char* title)
     : m_initialized(InitWindow(w, h, title)) {

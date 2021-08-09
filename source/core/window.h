@@ -5,7 +5,7 @@
 #pragma once
 #include "GLFW/glfw3.h"
 
-namespace Tokyo::Core
+namespace Core
 {
     class Window {
         public:

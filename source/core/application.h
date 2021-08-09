@@ -5,7 +5,7 @@
 #pragma once
 #include "./window.h"
 
-namespace Tokyo::Core
+namespace Core
 {
     class Application {
         public:
@@ -13,6 +13,6 @@ namespace Tokyo::Core
             ~Application();
             void Run();
         private:
-            const Tokyo::Core::Window m_window;
+            const Core::Window m_window;
     };
 }

@@ -7,7 +7,7 @@
 int main() {
 
     {
-        Tokyo::Core::Application application;
+        Core::Application application;
 
         try {
             application.Run();
