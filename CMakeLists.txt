@@ -3,7 +3,7 @@ project(vulkan)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(vulkan main.cpp)
+add_executable(vulkan main.cpp source/core/window.cpp source/core/window.h source/core/application.cpp source/core/application.h source/util/log.h source/core/exceptions.h)
 
 # Copy resources
 ##add_custom_command(TARGET ${PROJECT_NAME} PRE_BUILD
